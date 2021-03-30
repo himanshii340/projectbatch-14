@@ -39,7 +39,7 @@ def load_model():
 
 def figure():
     labels=["Positive reviews","Negative reviews"]
-    values_ = [8446, 981]
+    values_ = [25647, 2948]
     pie = go.Pie(labels=labels,values= values_,pull =[0,0.2],textposition='inside')
     fig=go.Figure(data=[pie])
     return fig
